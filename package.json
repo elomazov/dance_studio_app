@@ -1,0 +1,31 @@
+{
+  "name": "dance_studio_app",
+  "version": "1.0.0",
+  "description": "Attempt at a replacement of the scheduling system used by Arthur Murray Israel",
+  "private": true,
+  "packageManager": "npm@10.8.2",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.0",
+    "typescript": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elomazov/dance_studio_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elomazov/dance_studio_app/issues"
+  },
+  "homepage": "https://github.com/elomazov/dance_studio_app#readme",
+  "main": "index.js"
+}
